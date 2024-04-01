@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0e1e3d; /* Dark blue background */
+            position: relative;
+        }
+        header {
+            background-color: #7289DA;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 0 0 50% 50%;
+            position: relative;
+            z-index: 2; /* Lower z-index than the top bar */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .corner {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: #7289DA;
+        }
+        .corner-top-left {
+            top: 0;
+            left: 0;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0 50%);
+        }
+        .corner-top-right {
+            top: 0;
+            right: 0;
+            clip-path: polygon(0% 0%, 100% 0%, 0 50%, 0% 50%);
+        }
+        .top-links {
+            text-align: center;
+            margin-top: 20px; /* Adjusted margin to move it below the "All rights reserved" text */
+        }
+        .top-links a {
+            margin-right: 20px; /* Add space between links */
+            color: #fff; /* Link color */
+            text-decoration: none; /* Remove underline */
+            padding: 5px 10px; /* Add padding for better clickability */
+        }
+        h1 {
+            margin-top: 0;
+            position: relative; /* Ensure the bot's name stays on top of the section */
+            z-index: 1; /* Ensure the bot's name is above the section */
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #7289DA;
+            color: #fff;
+            border-radius: 50% 50% 0 0;
+            z-index: 1; /* Ensure the footer is at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <div class="corner corner-top-left"></div>
+    <div class="corner corner-top-right"></div>
+    <header>
+        <h1>Rhea Bot</h1>
+    </header>
+    <div class="container">
+        <h1>Introducing: Rhea</h1>
+        <p>A good & sfw bot, you can also retrieve your progress by logging in her!</p>
+        <h2>Features</h2>
+        <ul>
+            <li>Economy</li>
+            <li>Games</li>
+            <li>Miscellaneous</li>
+            <li>More coming soon (maybe)</li>
+        </ul>
+        <h2>Popular Commands</h2>
+        <ul>
+            <li>rhea hack</li>
+            <li>rhea bj</li>
+            <li>rhea roll</li>
+        </ul>
+        <p><a href="https://discordapp.com/oauth2/authorize?client_id=122429460427866182&scope=bot&permissions=2146958847">Invite Rhea to your server and start enjoying its features now!</a></p>
+        <p><a href="https://discord.com/invite/Th5K9SyhZk">Join our support server for help and updates.</a></p>
+    </div>
+    <footer>
+        &copy; 2024 Rhea Bot. All rights reserved.
+    </footer>
+    <div class="top-links">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/company-email">Our company email</a>
+        <a href="/company-adress">Company adress</a>
+        <a href="/copyrights">Copyrights</a>
+    </div>
+</body>
+</html>
